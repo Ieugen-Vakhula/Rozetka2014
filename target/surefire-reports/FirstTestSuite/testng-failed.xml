@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [FirstTestSuite]">
+  <parameter name="expectedCount" value="2"/>
+  <test name="SmokeTest(failed)">
+    <classes>
+      <class name="ui.LoginToRozetkaWebStore">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUpPreconditions"/>
+        </methods>
+      </class> <!-- ui.LoginToRozetkaWebStore -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [FirstTestSuite] -->
